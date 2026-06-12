@@ -1,12 +1,23 @@
 import getFutureAge from "./utilities/checkFutureAge.js";
+import getMilestoneDates from "./getmilestoneDates.js";
 
+const dateOfBirth = "16-05-1973";
+const spaDate = "05-04-2028";
 
-const age = getFutureAge("30-04-1975", "05-04-2028");
+const age = getFutureAge(dateOfBirth, spaDate);
+
+console.log(`You will be ${age} at the cut off date in 2028`);
 
 if (age < 55) {
     console.log("You have to wait until 57 to get your pension");
 } else {
     console.log("You can take your pension now because you are 55");
 }
+
+
+const milestoneDates = getMilestoneDates(dateOfBirth);
+console.log(milestoneDates);
+
+
 
 console.log("Your node app (basic) is running successfully");
