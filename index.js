@@ -1,7 +1,7 @@
 import getFutureAge from "./utilities/checkFutureAge.js";
 import getMilestoneDates from "./getmilestoneDates.js";
 
-const dateOfBirth = "16-05-1973";
+const dateOfBirth = "14-09-1972";
 const spaDate = "05-04-2028";
 
 const age = getFutureAge(dateOfBirth, spaDate);
