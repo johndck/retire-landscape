@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Environment & secrets (never commit these)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Build / cache
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+.next/
+out/
+
+# Test coverage
+coverage/
+
+# Editor / IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Cursor (optional — uncomment if you don't want local Cursor config in git)
+# .cursor/
+
+# OS / misc
+Thumbs.db
