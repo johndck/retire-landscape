@@ -1,7 +1,8 @@
 import getFutureAge from "./utilities/checkFutureAge.js";
 import getMilestoneDates from "./getmilestoneDates.js";
+import calsMonthstoFund from "./calcMonths.js";
 
-const dateOfBirth = "14-09-1972";
+const dateOfBirth = "16-05-1973";
 const spaDate = "05-04-2028";
 
 const age = getFutureAge(dateOfBirth, spaDate);
@@ -17,6 +18,12 @@ if (age < 55) {
 
 const milestoneDates = getMilestoneDates(dateOfBirth);
 console.log(milestoneDates);
+
+const startDate = "15-05-2028";
+const endDate = "10-06-2060";
+const months = calsMonthstoFund(startDate, endDate);
+console.log(`You have to fund ${months} months of later life`);
+
 
 
 

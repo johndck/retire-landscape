@@ -5,7 +5,7 @@ const [day, month, year] = dateOfBirth.split("-").map(Number);
 const birthDate = new Date(year, month - 1, day);
 
 // 2. Define the milestone ages you want to find
-const milestones = [57, 67, 75, 87];
+const milestones = [57, 67, 77, 87];
 const results = {};
 
 // 3. Loop through milestones and calculate the new dates
